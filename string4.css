@@ -1,0 +1,93 @@
+.string4{
+    width: 100%;
+    background-color: rgb(255, 193, 85);
+    margin-top: 50px;
+}
+h3{
+    font-size: 30px;
+letter-spacing: -1px;
+line-height: 22px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 800;
+font-family: "Gotham";
+text-align: center;
+}
+.main_text2 p{
+    font-size: 16px;
+    /* line-height: 22px; */
+    color: white;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin-top: -30px;
+}
+.main_text2{
+    padding-top: 140px;
+}
+.items{
+    display: flex
+;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.object{
+    width: 570px;
+    height: 220px;
+    background-color: white;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    display: flex
+;
+}
+.sp{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.sp::before{
+    content: "Darwin Michle,";
+    color: red;
+}
+.sp2::before{
+    content: "Madam Elisabath,"; 
+    color: red;
+}
+.sp2{
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.sp3::before{
+    content: "Clips arter,";
+    color: red;
+}
+.sp3{
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.sp4{
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.sp4::before{ 
+    content: "zam cristafr,";
+    color: red;
+}
+.piece2{
+    font-size: 13px;
+    line-height: 22px;
+    color: #7b7b7b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin-right: 10px;
+    margin-top: 27px;
+}
+.piece1{
+    padding-left: 40px;
+    margin-top: 47px;
+    padding-right: 34px;
+}
+.piece1 img{
+    width: 120px;
+    height: 120px;
+}

@@ -1,0 +1,13 @@
+.string5{
+    height: 50px;
+    background-color: rgb(112, 157, 202);
+    margin-top: -16px;
+    display: flex;
+    justify-content: center;
+}
+.string5 p{
+color: #ffffff;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: center;
+}

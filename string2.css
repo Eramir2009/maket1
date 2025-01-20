@@ -1,0 +1,97 @@
+.string2{
+    height: 727px;
+    position: relative;
+}
+.inside{
+    padding-top: 48px;
+    background-color: rgb(112, 157, 202);
+    height: 584px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 35px;
+    letter-spacing: -1px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Gotham";
+    
+}
+.block1 p{
+    font-size: 15px;
+    
+    line-height: 0px;
+
+    color: #ffffff;
+    
+    font-family: "Gotham";
+}
+.form{
+    display: flex;
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+.form div{
+    width: 280px;
+    height: 46px;
+    background-color: white;
+    display: flex;
+    margin: 5px;
+    border-radius: 2px;
+}
+.form div input{
+    width: 81%;
+    height: 90%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 2px;
+
+}
+
+.user-png{
+    background-image: url('./Task1/images/user.png');
+    background-repeat: no-repeat;
+    width: 50px;
+    background-size: 20px;
+    background-position: 11px;
+}
+.email-png{
+    background-image: url('./Task1/images/email.png');
+    background-repeat: no-repeat;
+    width: 50px;
+    background-size: 20px;
+    background-position: 11px;
+}
+.phone-png{
+    background-image: url('./Task1/images/phone.png');
+    background-repeat: no-repeat;
+    width: 50px;
+    background-size: 20px;
+    background-position: 11px;
+}
+.request{
+    width: 212px;
+    height: 46px;
+    margin: 5px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(255, 187, 66);
+    color: white;
+    text-transform: uppercase;
+    padding-top: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image img{
+    width: 641px;
+}
+.image{
+    position: absolute;
+    top: 48%;
+}
